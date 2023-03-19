@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("skills")
-@CrossOrigin(origins="http://localhost:4200")
+@RequestMapping("/skills")
+@CrossOrigin(origins="https://portfolio-ap-zampar.web.app")
 public class SkillsController {
     @Autowired ISkillsService iskillsService;
 

@@ -23,8 +23,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("experiencia")
-@CrossOrigin(origins="http://localhost:4200")
+@RequestMapping("/experiencia")
+@CrossOrigin(origins="https://portfolio-ap-zampar.web.app")
 public class ExperienciaController {
     @Autowired ImpExperienciaService iexperienciaService;
     
