@@ -80,7 +80,7 @@ public class ExperienciaController {
         experiencia.setTask(dtoExp.getTask());
         
         iexperienciaService.saveExperiencia(experiencia);
-        return new ResponseEntity(new Mensaje("Experiencia Actualizada"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Experiencia Actualizada con Exito"), HttpStatus.OK);
     }
         
     @PreAuthorize("hasRole('ADMIN')")
